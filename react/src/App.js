@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import ErrorBoundary from './ErrorBoundary';
-import './App.css';
+import React from 'react';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <ErrorBoundary>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-      </div>
-    </ErrorBoundary>
+    <div className="App">
+      <Calculator />
+    </div>
   );
 }
 
